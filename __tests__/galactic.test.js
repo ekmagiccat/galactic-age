@@ -3,6 +3,7 @@ import GalacticAge from "./../src/galactic.js";
 describe("GalacticAge", () => {
   let age;
   let galacticAge;
+  let pastAge;
 
   beforeEach(() => {
     age = 1;
