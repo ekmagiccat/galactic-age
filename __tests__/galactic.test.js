@@ -5,6 +5,7 @@ describe("GalacticAge", () => {
   let galacticAge;
   let years;
   let pastAge;
+  let merNum;
 
   beforeEach(() => {
     age = 30;
@@ -34,6 +35,6 @@ describe("GalacticAge", () => {
   });
 
   test("should calculate years between age and passed age on Earth", () => {
-    expect(galacticAge.yearsBtwn()).toBe(years * 1);
+    expect(galacticAge.yearsBtwn()).toBe(years * 1, years * merNum);
   });
 });
