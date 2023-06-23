@@ -24,7 +24,7 @@ describe("GalacticAge", () => {
     expect(galacticAge.age).toBe(age);
   });
 
-  test("should calculate age on Mercury based on user's Earth age", () => {
+  /* test("should calculate age on Mercury based on user's Earth age", () => {
     expect(galacticAge.mercuryAge()).toEqual(age * 0.24);
   });
 
@@ -38,6 +38,16 @@ describe("GalacticAge", () => {
 
   test("should calculate age on Jupiter based on user's Earth age", () => {
     expect(galacticAge.jupiterAge()).toEqual(age * 11.86);
+  }); */
+
+  test("should calculate age on Mercury, Venus, Mars, and Jupiter, based on user's Earth age", () => {
+    expect(galacticAge.planetAge()).toEqual(
+      age * 1,
+      age * 0.24,
+      age * 0.62,
+      age * 1.88,
+      age * 11.86
+    );
   });
 
   test("should calculate years between age and passed age on Earth, Mercury, Venus, Mars, and Jupiter", () => {

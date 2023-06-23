@@ -9,13 +9,21 @@ export default class GalacticAge {
     this.pastAge = pastAge;
     this.futureAge = futureAge;
   }
-
-  mercuryAge() {
+  planetAge() {
     const merNum = 0.24;
-    return this.age * merNum;
+    const veNum = 0.62;
+    const marsNum = 1.88;
+    const jupNum = 11.86;
+    return (
+      this.age * 1,
+      this.age * merNum,
+      this.age * veNum,
+      this.age * marsNum,
+      this.age * jupNum
+    );
   }
 
-  venusAge() {
+  /* venusAge() {
     const veNum = 0.62;
     return this.age * veNum;
   }
@@ -29,7 +37,7 @@ export default class GalacticAge {
     const jupNum = 11.86;
     return this.age * jupNum;
   }
-
+*/
   yearsBtwn() {
     let years = this.age - this.pastAge;
     const merNum = 0.24;
