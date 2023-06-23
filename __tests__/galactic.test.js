@@ -4,20 +4,20 @@ describe("GalacticAge", () => {
   let age;
   let galacticAge;
   let years;
-  let pastAge;
   let merNum;
   let veNum;
   let marsNum;
   let jupNum;
-  let futureAge;
   let fYears;
+  let pastAge;
+  let futureAge;
 
   beforeEach(() => {
-    age = 30;
-    pastAge = 20;
-    futureAge = 40;
+    // age = 30;
+    //pastAge = 20;
+    //futureAge = 40;
 
-    galacticAge = new GalacticAge(age);
+    galacticAge = new GalacticAge(age, pastAge, futureAge);
   });
 
   test("should define GalaticAge constructor", () => {
