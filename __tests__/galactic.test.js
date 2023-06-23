@@ -34,6 +34,6 @@ describe("GalacticAge", () => {
   });
 
   test("should calculate years between age and passed age on Earth", () => {
-    expect(galacticAge.yearsBtwn()).toBe(years);
+    expect(galacticAge.yearsBtwn()).toBe(years * 1);
   });
 });
