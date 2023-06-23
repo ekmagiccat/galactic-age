@@ -1,12 +1,7 @@
 body {
-  background-image: radial-gradient(
-    rgba(0, 0, 0, 0.571),
-    rgb(248, 244, 157),
-    rgba(45, 45, 211, 0.8),
-    rgba(91, 7, 91, 0.797),
-    rgba(0, 0, 0, 0.882)
-  );
+  background-image: url("https://s.hdnux.com/photos/01/26/47/23/22705401/4/1300x0.jpg");
   text-align: center;
+  color: antiquewhite;
 }
 
 .hidden {
