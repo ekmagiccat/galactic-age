@@ -30,6 +30,7 @@ export default class GalacticAge {
   }
 
   yearsBtwn() {
-    
+    let years = this.age - this.pastAge;
+    return years * 1;
   }
 }
