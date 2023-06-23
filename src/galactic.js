@@ -17,4 +17,8 @@ export default class GalacticAge {
     const veNum = 0.62;
     return this.age * veNum;
   }
+  marsAge() {
+    const marsNum = 1.88;
+    return this.age * marsNum;
+  }
 }
