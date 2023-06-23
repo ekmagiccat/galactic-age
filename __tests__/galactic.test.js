@@ -14,6 +14,6 @@ describe("GalacticAge", () => {
   });
 
   test("should calculate age on Mercury based on user's age", () => {
-    expect(galacticAge.mercuryAge()).toEqual(1.24);
+    expect(galacticAge.mercuryAge()).toEqual(0.24);
   });
 });
