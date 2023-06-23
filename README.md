@@ -23,7 +23,15 @@ Or the user can input a future age to see how many Earth, Mercury, Venus, Mars a
 
 ## Setup/Installation Requirements
 
-- Download Webpack Setup:
+Clone project:
+
+- Clone the repository from GitHub by navigating to the main page of the repository.
+- Above the list of files on the repository, click "Code".
+- Then click "Download ZIP".
+- After downloading, open the file.
+- Navigate to "index.html". Then open the file in your browser of choice for viewing.
+
+Then, download Webpack Setup:
 
 **This was written for Node version 16, if you have a different version of Node, this will not work. See the bottom of this file for more information**
 
