@@ -5,11 +5,15 @@ describe("GalacticAge", () => {
   let galacticAge;
 
   beforeEach(() => {
-    age = 0;
+    age = 1;
     galacticAge = new GalacticAge(age);
   });
 
   test("should define GalaticAge constructor", () => {
     expect(galacticAge.age).toBe(age);
+  });
+
+  test("should calculate age on Mercury based on user's age", () => {
+    expect(galacticAge.mercuryAge()).toEqual(1.24);
   });
 });

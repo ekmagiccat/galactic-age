@@ -7,4 +7,11 @@ export default class GalacticAge {
   constructor(age) {
     this.age = age;
   }
+
+mercuryAge() {
+  const merNum = 0.24;
+  return this.age * merNum;
+}
+
+
 }
