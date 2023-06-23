@@ -9,10 +9,13 @@ describe("GalacticAge", () => {
   let veNum;
   let marsNum;
   let jupNum;
+  let futureAge;
+  let fYears;
 
   beforeEach(() => {
     age = 30;
     pastAge = 20;
+    futureAge = 40;
 
     galacticAge = new GalacticAge(age);
   });
@@ -44,6 +47,16 @@ describe("GalacticAge", () => {
       years * veNum,
       years * marsNum,
       years * jupNum
+    );
+  });
+
+  test("should calculate years between a future age and current age on Earth, Mercury, Venus, Mars, and Jupiter", () => {
+    expect(galacticAge.futureYears()).toBe(
+      fYears,
+      fYears * merNum,
+      fYears * veNum,
+      fYears * marsNum,
+      fYears * jupNum
     );
   });
 });
