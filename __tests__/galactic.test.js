@@ -6,6 +6,9 @@ describe("GalacticAge", () => {
   let years;
   let pastAge;
   let merNum;
+  let veNum;
+  let marsNum;
+  let jupNum;
 
   beforeEach(() => {
     age = 30;
@@ -34,7 +37,13 @@ describe("GalacticAge", () => {
     expect(galacticAge.jupiterAge()).toEqual(age * 11.86);
   });
 
-  test("should calculate years between age and passed age on Earth", () => {
-    expect(galacticAge.yearsBtwn()).toBe(years * 1, years * merNum);
+  test("should calculate years between age and passed age on Earth, Mercury, Venus, Mars, and Jupiter", () => {
+    expect(galacticAge.yearsBtwn()).toBe(
+      years * 1,
+      years * merNum,
+      years * veNum,
+      years * marsNum,
+      years * jupNum
+    );
   });
 });

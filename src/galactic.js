@@ -32,6 +32,11 @@ export default class GalacticAge {
   yearsBtwn() {
     let years = this.age - this.pastAge;
     const merNum = 0.24;
-    return years * 1, years * merNum;
+    const veNum = 0.62;
+    const marsNum = 1.88;
+    const jupNum = 11.86;
+    return (
+      years * 1, years * merNum, years * veNum, years * marsNum, years * jupNum
+    );
   }
 }
