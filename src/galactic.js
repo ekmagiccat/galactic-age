@@ -23,21 +23,6 @@ export default class GalacticAge {
     );
   }
 
-  /* venusAge() {
-    const veNum = 0.62;
-    return this.age * veNum;
-  }
-
-  marsAge() {
-    const marsNum = 1.88;
-    return this.age * marsNum;
-  }
-
-  jupiterAge() {
-    const jupNum = 11.86;
-    return this.age * jupNum;
-  }
-*/
   yearsBtwn() {
     let years = this.age - this.pastAge;
     const merNum = 0.24;
