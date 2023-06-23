@@ -8,10 +8,13 @@ export default class GalacticAge {
     this.age = age;
   }
 
-mercuryAge() {
-  const merNum = 0.24;
-  return this.age * merNum;
-}
+  mercuryAge() {
+    const merNum = 0.24;
+    return this.age * merNum;
+  }
 
-
+  venusAge() {
+    const veNum = 0.62;
+    return this.age * veNum;
+  }
 }
