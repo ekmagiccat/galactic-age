@@ -24,4 +24,8 @@ describe("GalacticAge", () => {
   test("should calculate age on Mars based on user's Earth age", () => {
     expect(galacticAge.marsAge()).toEqual(1.88);
   });
+
+  test("should calculate age on Jupiter based on user's Earth age", () => {
+    expect(galacticAge.jupiterAge()).toEqual(1.88);
+  });
 });
