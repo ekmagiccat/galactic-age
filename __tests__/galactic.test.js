@@ -52,7 +52,7 @@ describe("GalacticAge", () => {
 
   test("should calculate years between a future age and current age on Earth, Mercury, Venus, Mars, and Jupiter", () => {
     expect(galacticAge.futureYears()).toBe(
-      fYears,
+      fYears * 1,
       fYears * merNum,
       fYears * veNum,
       fYears * marsNum,
