@@ -26,6 +26,6 @@ describe("GalacticAge", () => {
   });
 
   test("should calculate age on Jupiter based on user's Earth age", () => {
-    expect(galacticAge.jupiterAge()).toEqual(1.88);
+    expect(galacticAge.jupiterAge()).toEqual(11.86);
   });
 });
