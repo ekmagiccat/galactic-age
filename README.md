@@ -344,6 +344,7 @@ And the final `package.json`:
     "webpack-dev-server": "3.11.3"
   }
 }
+```
 
 - Then, run `npm install` in the root level of the project.
 - After adding these things, run `npm run build` in the terminal to bundle your js code.
@@ -378,4 +379,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+```
+
 ```
