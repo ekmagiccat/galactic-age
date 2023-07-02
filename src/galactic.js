@@ -14,13 +14,13 @@ export default class GalacticAge {
     const veNum = 0.62;
     const marsNum = 1.88;
     const jupNum = 11.86;
-    return (
-      this.age * 1,
+    return [
+      this.age,
       this.age * merNum,
       this.age * veNum,
       this.age * marsNum,
-      this.age * jupNum
-    );
+      this.age * jupNum,
+    ];
   }
 
   yearsBtwn() {
@@ -29,9 +29,13 @@ export default class GalacticAge {
     const veNum = 0.62;
     const marsNum = 1.88;
     const jupNum = 11.86;
-    return (
-      years * 1, years * merNum, years * veNum, years * marsNum, years * jupNum
-    );
+    return [
+      years,
+      years * merNum,
+      years * veNum,
+      years * marsNum,
+      years * jupNum,
+    ];
   }
   futureYears() {
     let fYears = this.futureAge - this.age;
@@ -39,12 +43,12 @@ export default class GalacticAge {
     const veNum = 0.62;
     const marsNum = 1.88;
     const jupNum = 11.86;
-    return (
-      fYears * 1,
+    return [
+      fYears,
       fYears * merNum,
       fYears * veNum,
       fYears * marsNum,
-      fYears * jupNum
-    );
+      fYears * jupNum,
+    ];
   }
 }
