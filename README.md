@@ -29,13 +29,9 @@ Clone project:
 - Above the list of files on the repository, click "Code".
 - Then click "Download ZIP".
 - After downloading, open the file.
-- Navigate to "index.html". Then open the file in your browser of choice for viewing.
-
-Then, download Webpack Setup:
+- Then, download Webpack Setup:
 
 **This was written for Node version 16, if you have a different version of Node, this will not work. See the bottom of this file for more information**
-
-There are a lot of commands to run, and a lot of things to install and configure, here are the essentials of what you will need to do:
 
 First we will begin by initializing `npm`, run this command in your terminal, in the directory of your template:
 
@@ -349,17 +345,10 @@ And the final `package.json`:
   }
 }
 
-```
-
-Some things to keep in mind:
-
-All your source code, the code that you write, will primarily happen in the `src` folder. All your JS, HTML, CSS, and assets all belong in in the `src` folder.
-
-For testing:
-
-All files that contain our tests will go in the `__tests__` directory. The naming syntax is `{nameOfFileWeAreTesting}.test.js`. Naming is important here, as Jest will specifically look for tests in the `__tests__` directory, that have that naming syntax.
-
-Once you have a solid template setup, you likely won't need to touch any of the files outside of the `src` or `__tests__` directories.
+- Then, run `npm install` in the root level of the project.
+- After adding these things, run `npm run build` in the terminal to bundle your js code.
+- To test code, run `npm run test` in the terminal of your project.
+- To view the live server of the project, run `npm run start` in the terminal. The project will open in your default browser and update as your make changes.
 
 ## Known Bugs
 
@@ -389,3 +378,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
